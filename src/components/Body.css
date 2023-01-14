@@ -1,0 +1,10 @@
+.body{
+    background-color: #F0F0F0;
+    height: max-content;
+}
+.bodyItems{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}

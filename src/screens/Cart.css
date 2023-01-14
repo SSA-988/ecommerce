@@ -1,0 +1,104 @@
+.cart{
+    display: flex;
+    flex: 1;
+}
+
+.cartLeft{
+    flex: 0.7;
+    margin: 15px;
+    padding: 10px;
+}
+
+.cartRight{
+    flex: 0.3;
+    padding: 10px;
+    margin: 10px;
+}
+.cartContainer{
+    display: flex;
+    margin-bottom: 20px;
+}
+.cartDescription{
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+.cartButtons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cartButtonContiner{
+    display: flex;
+    flex-direction: column;
+}
+.cartButton{
+    background-color:#FEBE10;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.cartRightLocation{
+    display: flex;
+    margin-top: 10px;
+}
+.cartRightDesciption{
+    margin-left: 10px;
+}
+.cartRightText{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.cartRightButton{
+    margin-top: 7px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    background-color:#FEBE10;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.cartRightCoupon{
+    margin-top: 15px;
+}
+.cartRightCouponText{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartRightCoupon{
+    display: flex;
+
+}
+.cartRightCouponsmall{
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.cartRightCheckout{
+    margin-top: 14px;
+    
+}
+.cartRightChekoutpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.cartRightCheckoutButton{
+    background-color: #FEBE10;
+    outline:none;
+    border-radius: 4px;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
